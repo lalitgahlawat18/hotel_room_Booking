@@ -1,0 +1,116 @@
+/* .logo{
+    font-size: 25px;
+    border:2px solid black ;
+    padding: 5px;
+    text-align: center;
+   
+}
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:20px;
+} */
+/* whole header */
+/* whole header */
+header {
+    text-align: center;   /* h1 को center करने के लिए */
+    padding: 10px 0;
+      background-color: rgb(178, 101, 101);  
+    border:2px solid black
+  
+  }
+  
+  .logo {
+   font-size: 32px;
+   font-weight: bold;
+   margin-bottom: 10px;
+   /*नीचेspaceताकिnavथोड़ानीचेदिखे*/position:realtive;
+   animation: slideRightLeft 3s linear infinite;
+   
+}
+@keyframes slideRightLeft{
+  0%{  transform:translateX(100px);}
+  50%{ transform:translateX(50px); }
+ 100%{ transform:translateX(0px); }
+}
+  
+  nav {
+    display: flex;
+    justify-content: flex-end; /* right side */
+    margin-top: 10px;          /* थोड़ा नीचे लाने के लिए */
+   
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border: 2px solid rgb(96, 132, 152);
+    background-color:lightgreen;
+  }
+  
+  nav a:hover {
+    color: darkblue;
+    background-color: 2px solid rgb(139, 65, 0);
+  }
+  
+  h3{
+    font-size: 30px;
+
+  }
+  
+  
+.cards{
+    display: flex;
+    /* align-items: start; */
+    gap:50px;
+}
+.card{
+    border: 2px solid skyblue;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(210, 171, 124);
+    
+}
+.book-btn{
+     background-color: aqua;
+}
+.book-btn:hover{
+     background-color: rgb(131, 154, 76);
+     font-size: smaller;
+}
+
+h3{
+     color:darkred
+}
+#booking form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;   /* gap between items */
+  }
+  #booking button{
+   
+    background-color:rgb(6, 165, 112);
+ }
+#booking button:hover{
+   font-size:small;
+   font-weight: bold;
+   background-color:yellow;
+}
+
+#contact button{
+    font-size:medium;
+    font-weight: bold;
+    background-color:rgb(81, 55, 146);   
+}
+#contact h4{
+    font-size:25px;
+    color:
+    font-weight: bold;
+    
+}
+#contact label{
+    font-size:21px ;
+}

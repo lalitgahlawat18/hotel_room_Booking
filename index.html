@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+</head>
+  <link rel="stylesheet" href="style.css">
+<body>
+    <header class="nav"> 
+   <div class="container">
+    <h1 class="logo">MyHotel</h1>
+    <nav>   <a href="#home">Home</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#booking">Booking</a>
+        <a href="#contact">Contact</a>
+      </nav>
+         </div>
+        </header>
+    <section id="home" class="hero container">
+            <h2><u>Welcome to MyHotel</u>&#128522;</h2>
+            <p><i>Comfortable stay — budget friendly</i>&#9989;</p>
+          </section>
+      <section id="rooms" class="container">
+        <h3>Our Rooms</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="singleroom.jpg" alt="Single">
+        <h4>Single Room</h4>
+        <p>₹1000 / night</p>
+        <button class="book-btn">Book Now</button></div>
+        <div class="card">
+            <img src="doubleroom.jpg" alt="Double">
+            <h4>Double Room</h4>
+            <p>₹1800 / night</p>
+            <button class="book-btn" >Book Now</button>
+          </div>
+          <div class="card">
+            <img src="tripleroom.jpg" alt="Suite">
+            <h4>Suite</h4>
+            <p>₹3000 / night</p>
+            <button class="book-btn" >Book Now</button>
+    
+            </div>
+        </div>
+      </section>
+          <!-- we have done navbar
+          welcome wishes 
+          rooms (single,double,..)
+          booking ...(person detail)
+         conatact detail bnao ab -->
+          <section id="booking" class="container">
+            <h3><u>Booking Form:-</u></h3>
+            <form action="#">
+              <label for="name">Name:</label>
+              <input type="text" id="name" placeholder="enter name">
+              <label for="email">Email:</label>
+              <input type="email" id="email" placeholder="enter email">
+              <label for="phone">Phone:</label>
+              <input type="text" id="phone">
+              <label for="checkin">Check-in;</label>
+              <input type="date" id="checkin">
+              <label for="checkout">Check-out:</label>
+              <input type="date" id="checkout">
+              <button type="submit">Book Now</button>
+
+            </form>
+            <!-- <p id="message" style="color: green; font-weight: bold;"></p> -->
+          </section>
+        <section id="contact">
+          <h4><u>Contact Us</u></h4>
+          <form action="#">
+            <label for="cname">Name:</label>
+            <input type="text" id="cname" placeholder="enter your name"><br><br>
+          
+            <label for="cmsg">Message:</label>
+            <textarea id="cmsg"></textarea><br><br>
+          
+            <button type="submit">Send</button>
+          </form>
+          
+
+        </section>
+        <script src="index.js"></script>
+
+</body>
+</html>
